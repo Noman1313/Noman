@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+    color: forestgreen;
+}
+.name{
+    color: darkorange;
+}
+.div1{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.div1 img{
+    width: 100%;
+}
+.link{
+    background-image: linear-gradient(60deg,darkblue,darkorange);
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: chartreuse;
+    text-decoration: none;
+    font-weight: 900px;
+}
+section{
+    height: 450px;
+    padding-bottom: 100px;
+}
+.box{
+    box-shadow: 10 px 10px 40px blue;
+    border-radius: 5px;
+    height: 90%;
+    background-color: silver ;
+}
+#color1{
+    border-left: 8px solid;
+    border-image: linear-gradient(darkblue,forestgreen);
+    border-image-slice: 4;
+}
+#color2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,green,red);
+    border-image-slice: 2;
+}
+.sec1{
+    background-repeat: no-repeat;
+    background-image: url("picture/top-banner.png");
+}
+.sec2{
+    background-image: url("picture/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sec3{
+    background-image: url("picture/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+}
